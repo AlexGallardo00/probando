@@ -1,0 +1,103 @@
+﻿body {
+	background-image: url(imagenes/Fondo.jpg);
+	background-position: center top;
+	background-repeat: repeat-y;
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	font-family: verdana;
+}
+.contenedor {
+	background-color: #fff;
+	width: 997px;
+	border: 0;
+	-webkit-margin-end: auto;
+	-webkit-margin-start: auto;
+	-webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+	height: auto;
+	overflow: hidden;
+}
+.cabecera {
+	float: left;
+	width: 997px;
+	height: 250px;
+	background-image: url(imagenes/Cabecera2.jpg);
+}
+.contenido {
+	background-color: #fff;
+	float: left;
+	width: 997px;
+	margin-bottom: 50px;
+}
+.pie {
+	float: left;
+	height: 60px;
+	width: 997px;
+	background-color: #003b6a;
+	background-image: url(imagenes/Pie-de-pagina.jpg);
+	text-align: center;
+}
+.cont-izquierdo {
+	float: left;
+	width: 692px;
+	background-color: #fff;
+}
+.cont-cont-izq {
+	background-image: url(imagenes/fondo-titulos.png);
+    width: 678px;
+    margin-left: 3px;
+    margin-top: 5px;
+    border-left: solid 1px #DEDEDE;
+    border-right: solid 1px #DEDEDE;
+    border-bottom: solid 1px #DEDEDE;
+    background-color: #F6F6F6;
+    background-repeat: no-repeat;
+    float: left;
+}
+#hrpie {
+	border: none;	
+}
+.cont-derecho {
+	float: left;
+	width: 300px;
+	background-color: #fff;
+}
+.cont-cont-der {
+	background-image: url(imagenes/fondo-titulos.png);
+    width: 286px;
+    margin-left: 3px;
+    margin-top: 5px;
+    border-left: solid 1px #DEDEDE;
+    border-right: solid 1px #DEDEDE;
+    border-bottom: solid 1px #DEDEDE;
+    background-color: #F6F6F6;
+    background-repeat: no-repeat;
+    float: left;
+}
+.titulos {
+	height: 22px;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    color: #305B79;
+    padding-top: 8px;
+    margin-left: 10px;
+    margin-left: 34px;
+}
+.contenido-texto {
+	padding: 10px;
+	text-align: justify;
+}
+.icono-titulo {
+	float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+ul#alumnos {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#cont-contacto {
+	line-height: 40px;
+}

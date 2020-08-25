@@ -1,0 +1,74 @@
+﻿.menu-principal {
+	background-color: #014daf;
+	background-image: url(imagenes/iconos.jpeg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 997px;
+	padding-top: 2px;
+	float: left;
+}
+ul.menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	float: left;
+}
+ul.menu li {
+	float: left;
+	margin: 0 3px 0 3px;
+}
+ul.menu li a {
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 18px 76.5px 18px 76.5px;
+	text-align: center;
+	background-image: url(imagenes/iconos.jpeg);
+}
+
+ul.menu li#inicio {
+	margin-left: 6px;
+}
+ul.menu li#inicio a {
+	background-position: -6px -38px;
+}
+ul.menu li#inicio a:hover {
+	background-position: -6px -1px;
+}
+body#pagina1 ul.menu li#inicio a {
+	background-position: -6px 38px;
+}
+
+
+ul.menu li#elemento2 a {
+	background-position: -165px -38px;
+}
+ul.menu li#elemento2 a:hover {
+	background-position: -165px -1px;
+}
+body#pagina2 ul.menu li#elemento2 a {
+	background-position: -165px 38px;
+}
+
+
+ul.menu li#elemento3 a {
+	background-position: -324px -38px;
+}
+ul.menu li#elemento3 a:hover {
+	background-position: -324px -1px;
+}
+body#pagina3 ul.menu li#elemento3 a {
+	background-position: -324px 38px;
+}
+
+ul.menu li#contacto a {
+	background-position: -483px -38px;
+}
+ul.menu li#contacto a:hover {
+	background-position: -483px -1px;
+}
+body#pagina4 ul.menu li#contacto a {
+	background-position: -483px 38px;
+}
